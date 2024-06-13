@@ -1,0 +1,92 @@
+  
+  html {
+    background-position-x: center;
+    background-position-y: top;
+  }
+
+  body {
+  min-height: 100%;
+  padding: 0;
+  margin: 10px auto;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  overflow-y: scroll; /* Show vertical scrollbar */
+  }
+  
+  h1 {
+    margin: 0%;
+  }
+
+  p {
+    margin: 0%;
+  }
+
+  article {
+    display: inline flex;
+    flex-wrap: wrap;
+    width: 370px;
+    vertical-align:top;
+  }
+
+
+  main {
+    margin: auto;
+    padding: 10px 10px 50px 10px;
+    max-width: 1170px;
+  }
+
+  section {
+    width: 100%;
+  }
+
+  section > details {
+    padding: 10px;
+}
+
+  section > details > summary {
+      font-size: 26px;
+      font-weight: bold;
+      color: #08c;
+      text-decoration: underline;
+  }
+
+  section > article > details[open] {
+    padding-bottom: 20px;
+  }
+
+  section > article > details > summary {
+    color: #08c;
+    text-decoration: underline;
+  }
+
+  i.icon-star:before { 
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    content: "\2605"; 
+  }
+
+  blockquote {
+    border-left: 5px solid #eee;
+  }
+
+  ::marker{ display:none; } 
+  
+  summary{ list-style: none }
+
+  @page {
+    size: A4 landscape;
+  }
+  
+  
+@page:right{ 
+  @bottom-left {
+    margin: 10pt 0 30pt 0;
+    border-top: .25pt solid #666;
+    content: "My book";
+    font-size: 9pt;
+    color: #333;
+  }
+}
+

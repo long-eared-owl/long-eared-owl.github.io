@@ -1,0 +1,38 @@
+body { 
+	background: white; 
+    font-size: 10pt; 
+} 
+
+main { 
+	width: auto; margin: 0 10px; 
+	padding: 0; 
+	border: 0; 
+	float: none !important; 
+	color: black; 
+	background: transparent; 
+    
+        max-width: 1000px;
+      
+}
+
+section > details {
+    padding: 0;
+}
+
+section > details > summary {
+    font-size: 12px;
+    font-weight: bold;
+    color: black; 
+    text-decoration: none;
+}
+
+article {
+    width: 300px;
+  }
+
+  section > article > details > summary {
+    color: black; 
+    text-decoration: none;
+  }
+
+  .no-print { display: none; }
