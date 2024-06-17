@@ -1,18 +1,13 @@
 body { 
 	background: white; 
     font-size: 10pt; 
-} 
-
-main { 
-	width: auto; margin: 0 10px; 
+    width: auto; margin: 0 10px; 
 	padding: 0; 
 	border: 0; 
 	float: none !important; 
 	color: black; 
 	background: transparent; 
-    
-        max-width: 1000px;
-      
+    max-width: 1000px;
 }
 
 section > details {
