@@ -1,4 +1,4 @@
-# long-eared-owl.github.io
+# [long-eared-owl.github.io/httpstatuscodes](https://long-eared-owl.github.io/httpstatuscodes/)
 
 Github-Pages of user long-eared-owl.
 
