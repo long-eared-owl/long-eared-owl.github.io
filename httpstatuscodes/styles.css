@@ -36,13 +36,18 @@
 
   section > details {
     padding: 10px;
-}
+  }
 
   section > details > summary {
       font-size: 26px;
       font-weight: bold;
       color: #08c;
       text-decoration: underline;
+      cursor: pointer;
+  }
+
+  section > details[open] > summary {
+    padding-bottom: 10px;
   }
 
   section > article > details[open] {
@@ -52,6 +57,7 @@
   section > article > details > summary {
     color: #08c;
     text-decoration: underline;
+    cursor: pointer;
   }
 
   img {
